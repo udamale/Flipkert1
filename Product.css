@@ -1,0 +1,39 @@
+#products{
+    display: flex;
+}
+
+#topmenu >span{
+    padding: 5px;
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#collection{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    grid-gap: 20px;
+}
+
+#collection >div{
+ 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;    
+}
+
+.avatar{
+    height: 200px;
+    width: 150px;
+}
+
+.innerbox{
+    display: flex;
+    justify-content: space-around;
+}
+*select{
+    border: none;
+}
+#Filters{
+font-weight: bold;
+font-family: sans-serif;
+display: flex;
+}
